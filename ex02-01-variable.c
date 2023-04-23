@@ -34,6 +34,10 @@ int main(void)
     printf("%d\n", number4);
 
     /* 사용 가능한 변수명들 */
+    int num = 3; // int는 '정수'를 의미하는 자료형
+    int number6 = 6;
+    int num_ber = 10;
+    int Number = 15;
     
 
 
