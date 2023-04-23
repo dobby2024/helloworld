@@ -40,6 +40,8 @@ int main(void)
     int Number = 15;
     
 
+    /* 사용 불가한 변수명들 */
+
 
     
 
