@@ -60,10 +60,12 @@ int main(void)
     */
 
     int i;
-    for (i = 0; i < 7; i++)
+
+
+    for (i = 0; i < 7; i++)             
     {
         int j;
-        for (j = 0; j < i+1; j++)
+        for (j = 0; j < i+1; j++)     
         {
             printf("*");
         }

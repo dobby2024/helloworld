@@ -5,6 +5,7 @@ ex05-02-operator2.c
     && (AND): 피연산자가 모두 참이면 참
     || (OR): 피연산자 중 참이 있으면 참
     ! (NOT): 피연산자가 참이면 거짓, 거짓이면 참(반전)
+
 5. 삼항 조건 연산자
     조건 ? 참일 경우 결과 : 거짓일 경우 결과
 
@@ -79,9 +80,25 @@ int main(void)
     printf("1)후위 증감연산자: %d\n", j++);
     printf("2)후위 증감연산자: %d\n", j);
 
+    // 삼항 연산자
+    printf("삼항 연산자 \n");
+    int num, absolute;
 
+    printf("정수 입력: ");
+    scanf("%d", &num);
 
+    absolute = num > 0 ? num : num * -1;
+    printf("절대값: %d\n", absolute);
 
+    if (num > 0) 
+        absolute = num;
+    else
+        absolute = num * -1;
+
+    printf("절대값: %d\n", absolute);
+    
+
+    printf("\n");
 
     return 0;
 
