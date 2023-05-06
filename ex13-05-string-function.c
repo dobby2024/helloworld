@@ -8,7 +8,6 @@
         문자열 복사
     3. strncpy
         문자열 원하는 개수만큼 복사
-
 */
 #include <stdio.h>
 #include <string.h>
