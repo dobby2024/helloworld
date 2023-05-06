@@ -45,7 +45,6 @@ int main(void)
         printf("\n");
     }
 
-
     printf("\n");
 
     for (int i = 0; i < 13; i++)
