@@ -24,7 +24,7 @@ int add(int a, int b)
 int main(void)
 {
     int result;
-
+    
     // 사용자 정의 함수 호출
     result = add(3, 5);
 
